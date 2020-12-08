@@ -5,8 +5,8 @@ The docsy-acend theme inherites from the docsy theme through Hugos [Theme Compon
 
 The theme adds the following to the standard docsy theme:
 
-* acend colors scheme and fonts
-* the acend logo
+* brand colors scheme and fonts
+* logo and favicons
 
 ## Installation
 
