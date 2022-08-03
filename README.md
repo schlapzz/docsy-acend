@@ -1,7 +1,7 @@
 # Docsy Acend
 
 Additions for the [docsy theme](https://github.com/google/docsy) for [Hugo](https://gohugo.io/), used for [acend](https://acend.ch) training content.
-The docsy-acend theme inherites from the docsy theme through Hugos [Theme Components](https://gohugo.io/hugo-modules/theme-components/).
+The docsy-acend theme inherites from the docsy theme through Hugo [Modules](https://gohugo.io/hugo-modules/use-modules/).
 
 The theme adds the following to the standard docsy theme:
 
