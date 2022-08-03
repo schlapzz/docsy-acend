@@ -13,16 +13,25 @@ The theme adds the following to the standard docsy theme:
 To add the docsy, docsy-plus and docsy-acend themes to an existing Hugo project, run the following commands from your project’s root directory:
 
 ```sh
-git submodule add https://github.com/google/docsy.git themes/docsy
-git submodule add https://github.com/acend/docsy-plus.git themes/docsy-plus
-git submodule add https://github.com/acend/docsy-acend.git themes/docsy-acend
-git submodule update --init --recursive
+hugo mod get github.com/acend/docsy-plus
+hugo mod get github.com/acend/docsy-acend
 ```
 
-Reference both themes in your configuration, the docsy-acend theme needs to come before docsy.
+Reference both themes in your configuration.
 
 Example config.toml:
 
 ```toml
-theme = ["docsy-acend", "docsy-plus", "docsy"]
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.100.0"
+  [[module.imports]]
+    path = "github.com/acend/docsy-acend"
+    disable = false
+  [[module.imports]]
+    path = "github.com/acend/docsy-plus"
+    disable = false
 ```
+
+Docsy itself is a dependencsy of docsy-plus
