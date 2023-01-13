@@ -34,4 +34,4 @@ Example config.toml:
     disable = false
 ```
 
-Docsy itself is a dependencsy of docsy-plus
+Docsy itself is a dependency of docsy-plus
