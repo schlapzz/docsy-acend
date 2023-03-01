@@ -7,7 +7,7 @@ $dunkelgrau: #959595;
 $primary: $AC-Blue !default;
 $primary-light: lighten($primary, 75%) !default;
 $secondary: $AC-Yellow !default;
-$success: #3772FF !default;
+$success: #FF00FF !default;
 $info: $AC-Blue !default;
 $warning: $AC-Yellow !default;
 $danger: $AC-Red !default;
@@ -27,7 +27,7 @@ $td-enable-google-fonts: false;
 }
 
 .alert-primary{
-  background: black;
+  background: black !default;
 }
 
 @font-face {
