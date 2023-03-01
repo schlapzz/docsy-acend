@@ -26,6 +26,10 @@ $td-enable-google-fonts: false;
   background: black;
 }
 
+.alert-primary{
+  background: black;
+}
+
 @font-face {
   font-family: "TTFirsNeue-Medium";
   src: url('../fonts/TTFirsNeue-Medium/font.woff2') format('woff2'), url('../fonts/TTFirsNeue-Medium/font.woff') format('woff');
