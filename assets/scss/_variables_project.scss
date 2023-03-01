@@ -23,20 +23,9 @@ $link-color: lighten($AC-Blue, 25%) !default;
 $td-enable-google-fonts: false;
 
 .alert {
-
-    background: blue;
-    color: inherit;
-    border-radius: 0;
-
+    background: $primary-light;
 }
 
-.bg-info{
-  background: black;
-}
-
-.alert-primary{
-  background: black;
-}
 
 @font-face {
   font-family: "TTFirsNeue-Medium";
