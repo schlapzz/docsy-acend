@@ -28,18 +28,6 @@ $td-enable-google-fonts: false;
     color: inherit;
     border-radius: 0;
 
-    @each $color, $value in $theme-colors {
-        &-#{$color} {
-            & .alert-heading {
-                color: $value;
-            }
-
-            border-style: solid;
-            border-color: $value;
-            border-width: 0 0 0 4px;
-            background: black;
-        }
-    }
 }
 
 .bg-info{
