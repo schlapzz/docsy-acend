@@ -22,6 +22,10 @@ $link-color: lighten($AC-Blue, 25%) !default;
 
 $td-enable-google-fonts: false;
 
+.bg-info{
+  background: black;
+}
+
 @font-face {
   font-family: "TTFirsNeue-Medium";
   src: url('../fonts/TTFirsNeue-Medium/font.woff2') format('woff2'), url('../fonts/TTFirsNeue-Medium/font.woff') format('woff');
